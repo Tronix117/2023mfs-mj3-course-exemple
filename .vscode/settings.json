@@ -1,0 +1,25 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "window.title": "${activeEditorMedium} –– [TSMJ3] Projet Typescript Majeur 3",
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    ".vscode": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.validate": [
+    "typescript",
+  ],
+  "eslint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "explorer.sortOrder": "mixed",
+  "typescript.tsdk": "node_modules/typescript/lib",
+}
