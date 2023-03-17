@@ -1,6 +1,10 @@
 {
 	"name": "mfs2023",
 	"private": true,
+	"scripts": {
+		"trpc:client": "pnpm --filter com-trpc-client run dev",
+		"trpc:server": "pnpm --filter com-trpc-server run dev"
+	},
 	"devDependencies": {
 		"typescript": "^4.9.5",
 		"@types/node": "^18.14.6"
