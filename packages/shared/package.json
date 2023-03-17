@@ -1,0 +1,7 @@
+{
+  "name": "@mfs2023/shared",
+  "private": true,
+  "devDependencies": {
+    "@mfs2023/tsconfig": "workspace:*"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "@mfs2023/tsconfig/tsconfig.app.json",
+  "files": ["src/index.ts"]
+}
