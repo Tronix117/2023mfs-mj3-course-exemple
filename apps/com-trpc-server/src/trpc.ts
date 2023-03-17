@@ -8,10 +8,10 @@ export const appRouter = t.router({
   sayHello: t.procedure
     .input(
       z.object({
-        name: z.string().nullish(),
+        firstname: z.string().nullish(),
       }),
     )
-    .query(({ input }) => `Hello ${input.name} !`),
+    .query(({ input }) => `Hello ${input.firstname} !`),
 });
 
 // Export type router type signature,
